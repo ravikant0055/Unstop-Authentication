@@ -12,7 +12,6 @@ A mini authentication app built with **React**, **TypeScript**, **TailwindCSS**,
   <img src="https://github.com/ravikant0055/Unstop-Authentication/blob/main/src/assets/unstop.png" alt="UnStop Authentication preview" width="80%" />
 </p>
 
----
 
 ## 🛠 Tech Stack
 
@@ -24,7 +23,6 @@ A mini authentication app built with **React**, **TypeScript**, **TailwindCSS**,
 - 📦 Axios for HTTP requests
 - 🔣 React Icons for UI enhancements
 
----
 
 ## ✨ Features
 
@@ -35,16 +33,12 @@ A mini authentication app built with **React**, **TypeScript**, **TailwindCSS**,
 - 💾 Persistent sessions across refresh
 - 🎯 User-friendly design using TailwindCSS
 
----
-
 ## 🧪 Test Credentials
 
 Use the following credentials to log in:
 
 - **Username:** `emilys`
 - **Password:** `emilyspass`
-
----
 
 ## 📦 Installation
 
