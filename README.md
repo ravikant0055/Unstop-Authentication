@@ -9,7 +9,7 @@ A mini authentication app built with **React**, **TypeScript**, **TailwindCSS**,
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://github.com/ravikant0055/Unstop-Authentication/blob/main/src/assets/unstop.PNG" alt="UnStop Authentication preview" width="80%" />
+  <img src="https://github.com/ravikant0055/Unstop-Authentication/blob/main/src/assets/unstop.png" alt="UnStop Authentication preview" width="80%" />
 </p>
 
 ---
