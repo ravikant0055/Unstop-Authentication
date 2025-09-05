@@ -9,7 +9,7 @@ A mini authentication app built with **React**, **TypeScript**, **TailwindCSS**,
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://github.com/ravikant0055/Kanban-Board/blob/main/src/assets/unstop.PNG" alt="UnStop Authentication preview" width="80%" />
+  <img src="https://github.com/ravikant0055/Unstop-Authentication/blob/main/src/assets/unstop.PNG" alt="UnStop Authentication preview" width="80%" />
 </p>
 
 ---
@@ -51,6 +51,6 @@ Use the following credentials to log in:
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/unStop-authentication.git
+git clone https://github.com/ravikant0055/unStop-authentication.git
 cd unStop-authentication
 npm install
