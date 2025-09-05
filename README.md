@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+# 🚀 UnStop Authentication
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini authentication app built with **React**, **TypeScript**, **TailwindCSS**, and **TanStack Router**. Features include form validation, token-based login, and persistent sessions using **localStorage**.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Click here to try the live demo](https://unstop-authentication.vercel.app/)
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<p align="center">
+  <img src="https://github.com/ravikant0055/Kanban-Board/blob/main/src/assets/unstop.PNG" alt="UnStop Authentication preview" width="80%" />
+</p>
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠 Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- ⚛️ React + TypeScript
+- 🎨 TailwindCSS
+- 🔁 TanStack Router
+- 🛡️ Token-based Authentication
+- 🧠 LocalStorage for session persistence
+- 📦 Axios for HTTP requests
+- 🔣 React Icons for UI enhancements
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ✨ Features
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 🔐 **Authentication Token Storage** in `localStorage`
+- ✅ **Form Validation** with feedback
+- 📱 **Responsive Design** for mobile & desktop
+- ⚡ Fast routing with **TanStack Router**
+- 💾 Persistent sessions across refresh
+- 🎯 User-friendly design using TailwindCSS
+
+---
+
+## 🧪 Test Credentials
+
+Use the following credentials to log in:
+
+- **Username:** `emilys`
+- **Password:** `emilyspass`
+
+---
+
+## 📦 Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/your-username/unStop-authentication.git
+cd unStop-authentication
+npm install
