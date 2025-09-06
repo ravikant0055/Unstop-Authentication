@@ -94,10 +94,10 @@ function RouteComponent() {
       <div className="hidden md:flex justify-center w-[50%] h-full">
         <img src={Banner} className="w-[500px]" />
       </div>
-      <div className="md:w-[50%] w-[100%] flex flex-col h-full p-13">
-        <div className="bg-white flex flex-col gap-4 py-6 px-7 rounded-2xl w-full h-full">
+      <div className="md:w-[50%] w-[100%] flex flex-col h-full md:p-13">
+        <div className="bg-white flex flex-col gap-5 md:gap-4 py-6 px-7 rounded-2xl w-full h-full">
          
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-5 md:gap-3">
             <h1 className="flex flex-col text-[20px]">
               Welcome to<span className="font-extrabold text-[27px] text-[#6358DC]">Unstop</span>
             </h1>
@@ -147,11 +147,11 @@ function RouteComponent() {
                       {errors.password || "placeholder"}
                     </p>
                 </div>
-                <div className='flex w-full justify-between text-sm my-2'>
+                <div className='flex w-full justify-between text-sm my-3 md:my-2'>
                     <label className='flex items-center gap-2'><input type='checkbox' className="appearance-none w-4 h-4 bg-[#E2E2E2] checked:appearance-auto rounded-sm"/>Remember me</label>
                     <Link to='/' className='text-[#6358DC]'>Forgot Password?</Link>
                 </div>
-                <button type='submit' className='bg-[#6358DC] my-2 text-sm text-white w-full py-4 rounded-md cursor-pointer hover:opacity-80'>Login</button>
+                <button type='submit' className='bg-[#6358DC] my-3 md:my-2 text-sm text-white w-full py-4 rounded-md cursor-pointer hover:opacity-80'>Login</button>
                 <h1 className='text-sm mt-1'>Don't have an account? <Link to='/' className='text-[#6358DC]'>Register</Link></h1>
           </form>
 
